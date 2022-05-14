@@ -1,0 +1,48 @@
+
+//font family
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@300;400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+$font-family-main: 'Poppins', sans-serif;
+$font-family-title: 'Lora', serif;
+
+//Colors
+
+$white: #FFFFFF;
+$black: #111111;
+$light-gray: #E5E5E5;
+$orange: #F88E37;
+$cyan-blue-dark: #1F3044;
+$light-cyan-blue: rgba(82, 109, 139, 0.658);
+
+$colors: (
+    "primary": $white,
+    "secondary":  $black,
+    "accent": $orange,
+    "light-gray": $light-gray,
+    "cyan-blue-dark":$cyan-blue-dark,
+    "light-cyan-blue": $light-cyan-blue,
+);
+
+$overlay-gradient:  linear-gradient(0deg, rgba(17,17,17,1) 20%, rgba(255,255,255,0) 90%);
+
+// font size
+
+$base-font-size: 1rem;
+$font-size-xsm: $base-font-size * 0.7;
+$font-size-sm: $base-font-size * 0.8;
+$font-size-md: $base-font-size * 2.5;
+$font-size-lg: $base-font-size * 4;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
+
+$font-size-big: clamp(3rem, 5vw, 7rem);
+
+
+$line-height: 1.5;
+
+
+$padding-left: 5%;
+
+
