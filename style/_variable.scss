@@ -30,19 +30,23 @@ $overlay-gradient:  linear-gradient(0deg, rgba(17,17,17,1) 20%, rgba(255,255,255
 // font size
 
 $base-font-size: 1rem;
-$font-size-xsm: $base-font-size * 0.7;
-$font-size-sm: $base-font-size * 0.8;
+$font-size-xsm: $base-font-size * 0.9;
+$font-size-sm: $base-font-size * 1.7;
 $font-size-md: $base-font-size * 2.5;
 $font-size-lg: $base-font-size * 4;
 $font-size-xl: $base-font-size * 2;
 $font-size-xxl: $base-font-size * 3;
 
+$font-size-button-lg: $base-font-size * 1;
+$font-size-button-sm: $base-font-size * 0.8;
 $font-size-big: clamp(3rem, 5vw, 7rem);
+
+$font-size-eu-sm: $base-font-size * 2.2;
 
 
 $line-height: 1.5;
 
 
-$padding-left: 5%;
+$padding-left: 8%;
 
 
